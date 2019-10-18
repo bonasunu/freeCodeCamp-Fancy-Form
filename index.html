@@ -1,108 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
+    <title>Fancy Form</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fancy Form</title>
 </head>
 <body>
-        <header class="header">
-          <div class="yellow-box-position">
-          <h1 id="title">Fancy</h1><h1 class="yellow-box">Form</h1>
+    <header class="header">
+      <div class="yellow-box-position">
+      <h1 id="title">Fancy</h1><h1 class="yellow-box">Form</h1>
+      </div>
+    </header>
+    <div class="div-top">
+      <h2 class="div-h2">Learn, create, and be inspired</h2>
+      <h3 class="div-h3">Write your first line of code, capture an artful photo, or make your own music.<h3>
+    </div>
+    <main id="main">
+      <div class="div-form">
+        <p id="description">Fill this form to register Awesome Event at freeCodeCamp on January 20-23 2020</p>
+        <form id="survey-form">
+          <!-- Name field -->
+         <div id="box-form">
+          <div class="leftside-form">
+            <label id="name-label" for="name">* Name:</label>
           </div>
-        </header>
-        <div class="div-top">
-          <h2 class="div-h2">Learn, create, and be inspired</h2>
-          <h3 class="div-h3">Write your first line of code, capture an artful photo, or make your own music.<h3>
-        </div>
-        <main id="main">
-          <div class="div-form">
-            <p id="description">Fill this form to register Awesome Event at freeCodeCamp on January 20-23 2020</p>
-            <form id="survey-form">
-              <!-- Name field -->
-             <div id="box-form">
+          <div class="rightside-form">
+          <input id="name" type="text" name="name" required placeholder="Enter your name">
+          </div>
+         </div>
+         <!-- Email field-->
+          <div id="box-form">
+            <div class="leftside-form">
+              <label id="email-label" for="email">* Email:</label>
+            </div>
+            <div class="rightside-form">
+              <input id="email" name="email" type="email" required placeholder="Tell me your fancy Email">
+            </div>
+          </div>
+         <!-- Age field -->
+         <div id="box-form">
+           <div class="leftside-form">
+             <label id="number-label" for="number">* Age</label>
+           </div>
+           <div class="rightside-form">
+             <input id="number" name="age" type="number" min="1" max="120" required placeholder="Age">
+           </div>
+         </div>
+         <!-- Interest dropdown field -->
+         <div id="box-form">
+           <div class="leftside-form">
+             <label id="dropdown-label" for="interest-dropdown">What do you like most in FCC:</label>
+           </div>  
+           <div class="rightside-form">
+             <select id="dropdown" name="interest-dropdown">
+               <option disabled selected value>Select an option</option>
+               <option value="challenges">Challenges</option>
+               <option value="projects">Projects</option>
+               <option value="community">Community</option>
+               <option value="openSource">Open Source</option>
+             </select>  
+           </div>
+         </div>
+         <!-- radio button field-->
+         <div id="box-form">
               <div class="leftside-form">
-                <label id="name-label" for="name">* Name:</label>
+                <label id="stay-form" for="stay">Where do you want to stay?</label>
               </div>
               <div class="rightside-form">
-              <input id="name" type="text" name="name" required placeholder="Enter your name">
+              <ul class="radio-list" style="list-style: none;">
+              <li class="radio"><label class="space"><input name="radio-buttons" value="1"  type="radio" class="user-choice">Suite camp</label></li>
+              <li class="radio"><label class="space"><input name="radio-buttons" value="2"  type="radio" class="user-choice">Premium camp</label></li>
+              <li class="radio"><label class="space"><input name="radio-buttons" value="3"  type="radio" class="user-choice">Lite Camp</label></li>
+              </ul>
               </div>
-             </div>
-             <!-- Email field-->
-              <div id="box-form">
-                <div class="leftside-form">
-                  <label id="email-label" for="email">* Email:</label>
-                </div>
-                <div class="rightside-form">
-                  <input id="email" name="email" type="email" required placeholder="Tell me your fancy Email">
-                </div>
-              </div>
-             <!-- Age field -->
-             <div id="box-form">
-               <div class="leftside-form">
-                 <label id="number-label" for="number">* Age</label>
-               </div>
-               <div class="rightside-form">
-                 <input id="number" name="age" type="number" min="1" max="120" required placeholder="Age">
-               </div>
-             </div>
-             <!-- Interest dropdown field -->
-             <div id="box-form">
-               <div class="leftside-form">
-                 <label id="dropdown-label" for="interest-dropdown">What do you like most in FCC:</label>
-               </div>  
-               <div class="rightside-form">
-                 <select id="dropdown" name="interest-dropdown">
-                   <option disabled selected value>Select an option</option>
-                   <option value="challenges">Challenges</option>
-                   <option value="projects">Projects</option>
-                   <option value="community">Community</option>
-                   <option value="openSource">Open Source</option>
-                 </select>  
-               </div>
-             </div>
-             <!-- radio button field-->
-             <div id="box-form">
-                  <div class="leftside-form">
-                    <label id="stay-form" for="stay">Where do you want to stay?</label>
-                  </div>
-                  <div class="rightside-form">
-                  <ul class="radio-list" style="list-style: none;">
-                  <li class="radio"><label class="space"><input name="radio-buttons" value="1"  type="radio" class="user-choice">Suite camp</label></li>
-                  <li class="radio"><label class="space"><input name="radio-buttons" value="2"  type="radio" class="user-choice">Premium camp</label></li>
-                  <li class="radio"><label class="space"><input name="radio-buttons" value="3"  type="radio" class="user-choice">Lite Camp</label></li>
-                  </ul>
-                  </div>
-             </div>
-             <div id="box-form">
-               <div class="leftside-form">
-                 <label id="add-service-form" for="add-service">Additional service</label>
-               </div>
-               <div class="rightside-form">
-                 <ul class="check-list" style="list-style: none;">
-                  <li class="checkbox"><label class="space" ><input name="prefer" value="1" type="checkbox" class="user-choice">Bike</label></li>
-                  <li class="checkbox"><label class="space"><input name="prefer" value="2" type="checkbox" class="user-choice">Skateboard</label></li>
-                  <li class="checkbox"><label class="space"><input name="prefer" value="3" type="checkbox" class="user-choice">Onewheel</label></li>
-                 </ul>
-               </div>
-             </div>
-             <!-- Notes -->
-             <div id="box-form">
-              <div class="leftside-form">
-                <label id="notes-label" for="notes">Notes for Awesome Event Team</label>
-              </div>
-              <div class="rightside-form">
-              <textarea id="notes" type="text" name="notes" placeholder="Enter your comment here" style="width: 250px;height:50px;resize:vertical;"></textarea>
-              </div>
-             </div>
-             <div id="submit-button"> 
-             <button id="submit" type="submit">Submit</button>
-             </div>  
-            </form>
+         </div>
+         <div id="box-form">
+           <div class="leftside-form">
+             <label id="add-service-form" for="add-service">Additional service</label>
+           </div>
+           <div class="rightside-form">
+             <ul class="check-list" style="list-style: none;">
+              <li class="checkbox"><label class="space" ><input name="prefer" value="1" type="checkbox" class="user-choice">Bike</label></li>
+              <li class="checkbox"><label class="space"><input name="prefer" value="2" type="checkbox" class="user-choice">Skateboard</label></li>
+              <li class="checkbox"><label class="space"><input name="prefer" value="3" type="checkbox" class="user-choice">Onewheel</label></li>
+             </ul>
+           </div>
+         </div>
+         <!-- Notes -->
+         <div id="box-form">
+          <div class="leftside-form">
+            <label id="notes-label" for="notes">Notes for Awesome Event Team</label>
           </div>
-        </main>
-        <footer>
-        <p>Made with ❤​ by <a href="https://bonaventurasunu.com/" target="_blank">Bonaventura Sunu</a>.</p>
-        </footer>
+          <div class="rightside-form">
+          <textarea id="notes" type="text" name="notes" placeholder="Enter your comment here" style="width: 250px;height:50px;resize:vertical;"></textarea>
+          </div>
+         </div>
+         <div id="submit-button"> 
+         <button id="submit" type="submit">Submit</button>
+         </div>  
+        </form>
+      </div>
+    </main>
+    <footer>
+    <p>Made with ❤​ by <a href="https://bonaventurasunu.com/" target="_blank">Bonaventura Sunu</a>.</p>
+    </footer>
 </body>
 </html>
