@@ -1,68 +1,69 @@
 body {
     background-color: #edf0ee;
     margin: 0;
-  }
+    width: 100%;
+}
   
-  h1 {
+h1 {
     vertical-align: middle;
     font-size: 2.8rem;
-  }
+}
   
-  .yellow-box {
+.yellow-box {
     color: #000;
     background-color: #ebc034;
     display: inline-block; 
     margin: 10px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     padding: 0 5px 0 5px;
-  }
+}
   
-  .yellow-box-position {
+.yellow-box-position {
     text-align: center;
-  }
+}
   
-  .header {
+.header {
     background-color: #000000;
     height: 125px;
     padding-top: 50px;
-  }
+}
   
-  #title {
+#title {
     display: inline-block; 
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #FFF;
     margin: 0;
-  }
+}
   
-  .div-top {
+.div-top {
     border-bottom: 1px solid #d2d2d7;
     width: 960px;
     margin: 0 auto;
-  }
+}
   
-  .div-h2 {
+.div-h2 {
     color: #333333;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 2.2rem;
     text-align: center;
     margin-bottom: -10px;
-  }
+}
   
-  .div-h3 {
+.div-h3 {
     color: #333333;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
     margin-top: 8px;
-  }
+}
   
-  #description {
+#description {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
-  }
+}
   
-  #main {
+#main {
     background-color: #FFFFFF;
     border-radius: 10px;
     margin: 0 auto;
@@ -70,12 +71,13 @@ body {
     margin-bottom: 25px;
     margin-top: 25px;
     padding: 7px 15px 7px 15px;
-  }
+}
   
-  .div-form {
+.div-form {
     
-  }
-  #submit {
+}
+
+#submit {
     background-color: #000;
     border-radius: 4px;
     color: white;
@@ -84,63 +86,63 @@ body {
     width: 96px;
     margin: 10px;
     border: 0px solid;
-  }
+}
   
-  #submit-button {
+#submit-button {
     text-align: center;
-  }
+}
   
-  .radio, .checkbox {
+.radio, .checkbox {
     position: relative;
     left: -43px;
     margin-left: 10px;
     display: block;
     padding-bottom: 10px;
-  }
+}
   
-  .radio-list {
+.radio-list {
     margin-top: -1px;
-  }
+}
   
-  .check-list {
+.check-list {
     margin-top: -1px;
-  }
+}
   
-  .leftside-form {
+.leftside-form {
     width: 45%;
     text-align: right;
     display: inline-block; 
     margin:10px;
     vertical-align: top;
-  }
+}
   
-  .rightside-form {
+.rightside-form {
     width: 45%;
     text-align: left;
     display: inline-block; 
     margin: 10px;
-  }
+}
   
-  .user-choice {
+.user-choice {
     float: left;
     margin-left: -5px;
-  }
+}
   
-  .space {
+.space {
     margin-left: 5px;
-  }
+}
   
-  footer {
+footer {
     text-align: center;
     color: #86868B;
     border-top: 1px solid #d2d2d7;
     width: 960px;
     margin: 0 auto;
-  }
+}
   
   /* Media Query */
   
-  @media screen and (max-width: 833px) {
+@media screen and (max-width: 833px) {
     .name {
       width: 80%;
     }
@@ -166,9 +168,9 @@ body {
       width: 100%;
     }
     
-  }
+}
   
-  @media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
     
     .div-top {
       width: 100%;
@@ -194,4 +196,4 @@ body {
     footer {
       width: 100%;
     }
-  }
+}
